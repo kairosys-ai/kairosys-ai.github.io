@@ -1,0 +1,240 @@
+[
+  {
+  "term": "Device Classification",
+  "definition": "The FDA categorizes medical devices based on risk to patients and users, organizing devices into three classes: Class I [low risk, usually exempt from 510(k)], Class II [moderate risk, usually requires 510(k) demonstrating substantial equivalence], and Class III [high risk, requires Premarket Approval (PMA)]. Classification determines the regulatory pathway, required controls, and level of evidence needed for market approval.",
+  "relation": "PIP can help teams research device classifications, identify prior submissions in the same category, and guide regulatory strategy for 510(k) or PMA pathways.",
+  "category": "medical",
+  "link": "https://www.fda.gov/medical-devices/overview-device-regulation/classify-your-medical-device"
+},
+  {
+    "term": "510(k)",
+    "definition": "A premarket submission to the FDA demonstrating a device is safe and effective by comparing it to a legally marketed device.",
+    "relation": "PIP can cross-reference 510(k) summaries to validate design intentions and outcomes.",
+    "category": "medical",
+    "link": "https://www.fda.gov/medical-devices/premarket-submissions-selecting-and-preparing-correct-submission/premarket-notification-510k"
+  },
+  {
+  "term": "Substantial Equivalence",
+  "definition": "A regulatory determination by the FDA that a medical device is as safe and effective as a legally marketed predicate device, based on risk-based comparison rather than superficial similarity.",
+  "relation": "PIP can help teams gather and organize the right performance, safety, and clinical evidence to support a substantial equivalence argument.",
+  "category": "medical",
+  "link": "https://www.fda.gov/media/82395/download?attachment"
+  },
+  {
+  "term": "Premarket Approval (PMA)",
+  "definition": "The FDA’s most stringent premarket review process, required for Class III medical devices that support or sustain life, prevent impairment, or present significant risk. PMA approval is based on valid scientific evidence demonstrating the device is safe and effective for its intended use, without relying on a predicate device.",
+  "relation": "PIP can help teams explore prior PMAs to identify relevant data trends, benchmarks, and regulatory expectations, as well as organize non-clinical and clinical evidence to support a new submission.",
+  "category": "medical",
+  "link": "https://www.fda.gov/medical-devices/premarket-submissions-selecting-and-preparing-correct-submission/premarket-approval-pma"
+  },
+  {
+    "term": "Adverse Event",
+    "definition": "An undesirable experience associated with the use of a medical product in a patient.",
+    "relation": "PIP identifies and categorizes adverse events from MAUDE and social media sources.",
+    "category": "medical",
+    "link": "https://www.ncbi.nlm.nih.gov/books/NBK558963/"
+  },
+  {
+  "term": "Use Error",
+  "definition": "An outcome of medical device use that differs from the manufacturer’s intended use or expected performance and is not caused by a device malfunction but by user interaction with the device. Use errors are often associated with inadequate user interface design, labeling, training, or workflows and are a core focus of human factors engineering.",
+  "relation": "Use errors identified post-market can inform human factors validation, labeling updates, and design changes. PIP can help link recurring use errors to interface design patterns, prior FDA feedback, and known usability risks.",
+  "category": "medical",
+  "link": "https://www.fda.gov/medical-devices/human-factors-and-medical-devices/human-factors-postmarket-information-device-surveillance-and-reporting-processes"
+},
+  {
+  "term": "Device Malfunction",
+  "definition": "A failure of a medical device to meet its performance specifications or otherwise perform as intended due to a design or manufacturing issue. A malfunction is reportable under MDR even if no patient harm occurs, when recurrence would be reasonably likely to cause death or serious injury.",
+  "relation": "Malfunctions serve as early warning signals for potential safety issues. PIP can help aggregate malfunction trends from MAUDE, complaints, and prior submissions to support proactive risk management and design improvements.",
+  "category": "medical",
+  "link": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-H/part-803/subpart-A/section-803.3"
+},
+  {
+  "term": "Design Controls",
+  "definition": "A set of quality practices and procedures that guide the medical device design process to ensure the device meets user needs, intended use, and specified requirements. Design controls help prevent issues, reduce recalls, and support regulatory compliance.",
+  "relation": "PIP can help teams analyze data relevant to various design control activities, including design planning, inputs, outputs, and risk management.",
+  "category": "medical",
+  "link": "https://www.fda.gov/media/116762/download"
+},
+  {
+    "term": "Design Inputs",
+    "definition": "The documented, measurable requirements that form the foundation of a medical device’s design, translating user needs and intended use into objective criteria that guide development and enable design verification and validation, as required under 21 CFR 820.30(c).",
+    "relation": "PIP helps teams develop robust, traceable design inputs by synthesizing regulatory requirements, prior submissions, and real-world user feedback to reduce ambiguity and downstream redesign risk.",
+    "category": "medical",
+    "link": "https://www.fda.gov/media/116762/download"
+  },
+  {
+    "term": "Design Outputs",
+    "definition": "The build-ready drawings, materials, specifications, instructions, and test methods that result from the design effort and define how a medical device is made, tested, inspected, and packaged. Design outputs translate design inputs into measurable and verifiable specifications, as required under 21 CFR 820.30(d).",
+    "relation": "PIP helps teams align design outputs with approved design inputs by analyzing and organizing prior submissions to better understand specifications, acceptance criteria, and regulatory benchmarks, thereby strengthening traceability, verification, and downstream Device Master Record (DMR) creation.",
+    "category": "medical",
+    "link": "https://www.fda.gov/media/116762/download"
+  },
+  {
+  "term": "Human Factors Engineering (HFE)",
+  "definition": "The application of knowledge about human behavior, abilities, and limitations to the design of medical devices to ensure they can be used safely and effectively by intended users, in intended environments, for intended purposes. HFE focuses on the user interface, labeling, training, and use-related risk mitigation, as outlined in FDA guidance.",
+  "relation": "PIP helps teams anticipate and address human factors expectations by analyzing prior FDA submissions, known use-related hazards, and real-world user feedback to inform design inputs, risk controls, and usability validation planning.",
+  "category": "medical",
+  "link": "https://www.fda.gov/media/80481/download"
+},
+    {
+  "term": "Design History File (DHF)",
+  "definition": "A formal compilation of records documenting the entire design and development history of a finished medical device, demonstrating compliance with the Design Plan and FDA design control regulations (21 CFR Part 820.30). The DHF ensures that design controls were properly followed from concept to finished device.",
+  "relation": "PIP can help teams collect, organize, and analyze documents and records needed to populate key sections of the DHF efficiently, supporting regulatory compliance and audits.",
+  "category": "medical",
+  "link": "https://www.fda.gov/media/116762/download"
+  },
+  {
+  "term": "Design Review",
+  "definition": "A formal, documented evaluation of the medical device design conducted at defined stages of development to ensure requirements are being met, risks are identified early, and the design is progressing appropriately, as required under 21 CFR 820.30(e).",
+  "relation": "PIP can support effective design reviews by revealing relevant regulatory expectations, prior submission lessons, and unresolved risks to help cross-functional teams identify gaps early and document decisions clearly.",
+  "category": "medical",
+  "link": "https://www.fda.gov/media/116762/download"
+},
+  {
+  "term": "Design Verification",
+  "definition": "The process of using objective evidence to confirm that design outputs meet the specified design inputs, answering the question: “Did we design the device right?”, as required under 21 CFR 820.30(f).",
+  "relation": "PIP helps teams strengthen verification by aligning clear, testable design inputs with outputs, acceptance criteria, and prior regulatory benchmarks, improving traceability and reducing rework.",
+  "category": "medical",
+  "link": "https://www.fda.gov/media/116762/download"
+},
+  {
+  "term": "Design Validation",
+  "definition": "The process of confirming that a medical device meets user needs and intended uses under actual or simulated use conditions, answering the question: “Did we design the right device?”, as required under 21 CFR 820.30(g). Validation typically uses production-equivalent units and includes clinical and human factors considerations.",
+  "relation": "PIP helps teams plan validation strategies by analyzing prior FDA submissions, known use-related risks, and human factors expectations to ensure validation studies address real-world use conditions.",
+  "category": "medical",
+  "link": "https://www.fda.gov/media/116762/download"
+},
+  {
+  "term": "Design Transfer",
+  "definition": "The controlled process of translating a validated medical device design into production-ready specifications, ensuring that manufacturing consistently produces devices that meet design, regulatory, and quality requirements, as required under 21 CFR 820.30(h).",
+  "relation": "PIP can help teams analyze prior submissions and real-world feedback to prevent delays, corrective and preventive actions (CAPAs), and costly redesigns.",
+  "category": "medical",
+  "link": "https://www.fda.gov/media/116762/download"
+},
+  {
+  "term": "Failure Mode and Effects Analysis (FMEA)",
+  "definition": "A structured, proactive risk management method used to identify, prioritize, and mitigate potential failures in a medical device's design, manufacturing, or process. It evaluates specific ways in which components or processes might fail (failure modes), the consequences of those failures (effects), and assigns risk priority numbers to guide corrective actions.",
+  "relation": "PIP can support FMEA by aggregating historical failures, regulatory feedback, and post-market data to inform risk scoring and prioritize high-risk failure modes.",
+  "category": "medical",
+  "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10229026/"
+},
+  {
+    "term": "Failure Trend",
+    "definition": "The pattern or increase in a specific type of device failure over time.",
+    "relation": "PIP can help visualize failure trends to prioritize areas needing redesign or investigation.",
+    "category": "medical",
+    "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9778633/"
+  },
+    {
+    "term": "Root Cause",
+    "definition": "The fundamental reason a failure occurs, identified through structured analysis like FMEA.",
+    "relation": "PIP enables identification of root causes by organizing adverse event narratives and failure modes.",
+    "category": "medical",
+    "link": "https://www.patientsafety.va.gov/professionals/onthejob/rca.asp"
+  },
+  {
+    "term": "Signal Detection",
+    "definition": "A technique in post-market surveillance used to detect new or rare safety concerns from large datasets.",
+    "relation": "PIP uses signal detection to flag potential risks earlier than traditional reports.",
+    "category": "medical",
+    "link": "https://edit.who-umc.org/signal-management/what-is-a-signal/"
+  },
+  {
+    "term": "Signal Prioritization",
+    "definition": "The process of ranking safety signals based on severity, frequency, and novelty.",
+    "relation": "PIP prioritizes potential issues so teams can focus on the highest-risk problems first.",
+    "category": "medical",
+    "link": "https://www.ema.europa.eu/en/human-regulatory-overview/post-authorisation/pharmacovigilance-post-authorisation/signal-management"
+  },
+  {
+    "term": "Form 3500A",
+    "definition": "The FDA\u2019s MedWatch form used by manufacturers to report adverse events involving medical devices.",
+    "relation": "PIP analyzes Form 3500A narrative sections to extract trends and failure themes.",
+    "category": "medical",
+    "link": "https://www.fda.gov/safety/medical-product-safety-information/medwatch-forms-fda-safety-reporting"
+  },
+  {
+    "term": "Freedom to Operate",
+    "definition": "The ability to develop, make, and sell products without legal liabilities from others\u2019 patents.",
+    "relation": "PIP analyzes patents to assess the freedom to operate for new device concepts.",
+    "category": "patent",
+    "link": "https://www.wipo.int/documents/d/tisc/docs-en-tisc-toolkit-freedom-to-operate-description.pdf"
+  },
+    {
+    "term": "Patent",
+    "definition": "A legal right that grants an inventor exclusive rights to a new, useful, and non-obvious invention for a period of time.",
+    "relation": "PIP checks patents for competitive analysis and freedom-to-operate.",
+    "category": "patent",
+    "link": "https://www.uspto.gov/patents/basics"
+  },
+    {
+    "term": "Pending Patent",
+    "definition": "A patent application that has been filed but not yet granted or rejected by the patent office.",
+    "relation": "PIP checks pending patents to understand innovations that may become protected in the future.",
+    "category": "patent",
+    "link": "https://www.investopedia.com/terms/p/patent-pending.asp"
+  },
+   {
+    "term": "Active Patent",
+    "definition": "A patent that has been granted by the relevant authority and is currently enforceable.",
+    "relation": "PIP uses active patents to assess existing protected solutions and possible infringement risks.",
+    "category": "patent",
+    "link": "https://www.patoffice.de/en/blog/patent-status-monitoring-what-are-the-possible-statuses"
+  },
+  {
+    "term": "Google Patents",
+    "definition": "A searchable interface for global patent databases, powered by Google.",
+    "relation": "PIP uses Google Patents to review similar designs and identify overlapping technology.",
+    "category": "patent",
+    "link": "https://library.bath.ac.uk/patents/google"
+  },
+  {
+    "term": "MAUDE",
+    "definition": "The Manufacturer and User Facility Device Experience is a database maintained by the FDA that contains medical device reports of adverse events.",
+    "relation": "PIP analyzes MAUDE to identify device failure trends and assess regulatory risks.",
+    "category": "medical",
+    "link": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfmaude/search.cfm"
+  },
+  {
+    "term": "Narrative Analysis",
+    "definition": "A method of extracting insights from qualitative text data by identifying themes and trends in written reports.",
+    "relation": "PIP performs narrative analysis on MAUDE and social media complaints to group similar issues.",
+    "category": "analysis",
+    "link": "https://dovetail.com/research/narrative-analysis/"
+  },
+  {
+    "term": "PubMed",
+    "definition": "A search engine maintained by the National Library of Medicine for biomedical and life sciences literature.",
+    "relation": "PIP may incorporate PubMed sources for clinical evidence validation.",
+    "category": "medical",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/about/"
+  },
+  {
+    "term": "Reddit",
+    "definition": "A social media platform with communities for discussing countless topics, structured around upvoting and downvoting posts and comments.",
+    "relation": "PIP monitors Reddit to detect early user-reported issues with medical devices.",
+    "category": "reddit",
+    "link": "https://support.reddithelp.com/hc/en-us/articles/204511479-What-is-Reddit"
+  },
+    {
+    "term": "Subreddit",
+    "definition": "A user-created community on Reddit focused on a specific topic, like r/AskDocs or r/medicaldevices.",
+    "relation": "PIP narrows monitoring to specific subreddits relevant to medical device safety.",
+    "category": "reddit",
+    "link": "https://support.reddithelp.com/hc/en-us/articles/204533569-What-are-communities-or-subreddits"
+  },
+  {
+    "term": "Upvote",
+    "definition": "An action on Reddit that shows agreement or approval, pushing content higher in visibility.",
+    "relation": "PIP considers upvoted posts more impactful when analyzing feedback trends.",
+    "category": "reddit",
+    "link": "https://support.reddithelp.com/hc/en-us/articles/7419626610708-What-are-upvotes-and-downvotes"
+  },
+    {
+    "term": "Downvote",
+    "definition": "A Reddit feature that signals disapproval or irrelevance, decreasing a post's visibility.",
+    "relation": "PIP can filter out heavily downvoted content to surface higher-quality signals.",
+    "category": "reddit",
+    "link": "https://support.reddithelp.com/hc/en-us/articles/7419626610708-What-are-upvotes-and-downvotes"
+  }
+]
